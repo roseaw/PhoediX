@@ -22,3 +22,12 @@ The current list of image edits PhoediX is capable of are:
 * **Blur Image** Use Fast Blur to blur the image horizontally, vertically, or in both directions. Specify the blur size and number of iterations.
 
 Head on over to the Wiki to learn how to build PhoediX from source!
+
+Jakes Informations above. Mines Below.
+
+This version of PhoediX includes all necessary repositories as submodules. After cloning this repository it is necessary to run "git submodule update --init --recursive".
+
+For Windows based builds everything can be built from the VS Solution.
+* Will need to create wxWidgets\include\wxWidgets\setup.h manually as it cannot be checked into the repository.
+* After opening the solution run Build manually on LibRaw_make, libtiff_make, and wxWidgetsBuild to perform setup.
+* You may need to move the LibRaw\bin\libraw.dll manually to the output directory for the application to launch (Working on fix).
