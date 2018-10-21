@@ -4,3 +4,6 @@
 [submodule "LibRaw"]
 	path = LibRaw
 	url = https://github.com/LibRaw/LibRaw.git
+[submodule "libtiff"]
+	path = libtiff
+	url = https://gitlab.com/libtiff/libtiff.git
